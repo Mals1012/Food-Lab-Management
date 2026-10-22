@@ -1,0 +1,25 @@
+{
+  "name": "food-lab-management-system",
+  "version": "1.0.0",
+  "description": "Professional Food Laboratory Management System (MERN Stack)",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "start": "node Backend/server.js",
+    "seed": "npm --prefix Backend run seed",
+    "test": "npm --prefix Backend test",
+    "build:frontend": "npm --prefix frontend run build",
+    "install:all": "npm --prefix Backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "food-lab",
+    "lims",
+    "mern",
+    "quality-assurance",
+    "chemical-analysis",
+    "food-safety",
+    "iso17025",
+    "haccp"
+  ],
+  "author": "",
+  "license": "ISC"
+}
